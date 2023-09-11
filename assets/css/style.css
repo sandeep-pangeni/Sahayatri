@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;700;900&family=Rubik&display=swap');
+
+/* //nav  */
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+body.active {
+    background-color: red;
+}
+
+nav ul li a,
+nav ul li button {
+    font-size: 1.1rem;
+
+}
+
+.nav-item.dropdown li a {
+    color: #444;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+/* //home */
+
+section.sect-home {
+    background-color: #fafafa;
+
+}
+
+.search-form-container {
+    margin: 1rem auto;
+}
+
+.search-form-container .card-header {
+    padding: 2rem;
+}
+
+
+.banner-description {
+    padding: 4rem !important;
+}
+
+.banner-heading strong {
+    font-weight: 700 !important;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+
+    color: midnightblue;
+    font-size: 3.5rem;
+
+}
+
+.banner-heading span {
+    font-weight: 400 !important;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color: midnightblue;
+    /* border-bottom: 2px solid midnightblue; */
+
+
+}
+
+.banner-description ul li {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+/* //search data image view  */
+.sect-search .image-container img {
+    height: 30vh;
+
+}
+
+.image-container {
+    position: relative;
+    transition: all 600ms ease;
+}
+
+.data-col:hover .image-container {
+    background-color: #879788;
+}
+
+.data-col:hover .image-container img {
+    opacity: 0.7;
+}
+
+
+.indiv-image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.centered-data {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .indiv-image {
+    opacity: 0.3;
+}
+
+.image-container:hover .centered-data {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.form-shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #f1f1f1;
+}
+
+
+.logo-color {
+    background-color: #008ecb;
+    color: #fff;
+}
+
+/* image circle  */
+
+.img-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
